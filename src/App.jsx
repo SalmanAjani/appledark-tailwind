@@ -1,5 +1,6 @@
 import styles from "./style";
 import { Hero, Navbar } from "./components";
+import Stats from "./components/Stats";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -16,7 +17,9 @@ const App = () => (
     </div>
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>Components</div>
+      <div className={`${styles.boxWidth}`}>
+        <Stats />
+      </div>
     </div>
   </div>
 );
