@@ -20,6 +20,10 @@ export const navLinks = [
     id: "home",
     title: "Home",
   },
+  {
+    id: "about",
+    title: "About",
+  },
 
   {
     id: "product",
@@ -31,20 +35,20 @@ export const navLinks = [
   },
 ];
 
-export const features = [
+export const about = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "100% Secure",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Our devices have encryption features to safeguard user data and enable remote wipe in the case of device theft or loss.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Reliable Software",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We take proactive steps make sure our software gives top notch user experience.",
   },
   {
     id: "feature-3",

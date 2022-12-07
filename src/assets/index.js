@@ -25,6 +25,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import Apple_logo_gray from "./Apple_logo_gray.svg";
 import iphone4 from "./iphone4.png";
+import iPad from "./iPad.png";
 
 export {
   airbnb,
@@ -54,4 +55,5 @@ export {
   people03,
   Apple_logo_gray,
   iphone4,
+  iPad,
 };
