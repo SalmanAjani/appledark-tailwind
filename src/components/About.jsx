@@ -1,6 +1,5 @@
 import { about } from "../constants";
 import styles, { layout } from "../style";
-import Button from "./Button";
 
 const AboutCard = ({ icon, title, content, index }) => (
   <div

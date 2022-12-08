@@ -2,7 +2,7 @@ import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 
 const Billing = () => (
-  <section id="billing" className={`${layout.sectionReverse}`}>
+  <section id="billing" className={`${layout.sectionReverse} mb-32`}>
     <div className={`${layout.sectionImgReverse} pl-8`}>
       <img
         src={bill}
@@ -16,7 +16,7 @@ const Billing = () => (
       {/* gradient end */}
     </div>
 
-    <div className={`${layout.sectionInfo} ml-10`}>
+    <div className={`${layout.sectionInfo} ml-6`}>
       <h2 className={`${styles.heading2}`}>
         Easily control your <br className="sm:block hidden" /> billing &
         invoicing.
