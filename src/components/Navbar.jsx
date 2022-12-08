@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, logo, menu, Apple_logo_gray } from "../assets";
+import { close, logo, menu, AppleIcon } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -8,8 +8,8 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={Apple_logo_gray} alt="hoobank" className="w-[28px] h-[32px]" />
+    <nav className="w-full flex py-6 justify-between items-center navbar md:pr-12 xs:pr-0">
+      <img src={AppleIcon} alt="hoobank" className="w-[28px] h-[32px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

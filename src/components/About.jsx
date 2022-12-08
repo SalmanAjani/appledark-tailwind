@@ -1,7 +1,6 @@
 import { about } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
-import { FaStar } from "react-icons/fa";
 
 const AboutCard = ({ icon, title, content, index }) => (
   <div
@@ -12,7 +11,7 @@ const AboutCard = ({ icon, title, content, index }) => (
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-darkpink-gradient`}
     >
-      <FaStar color="white" size="28px" />
+      <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
       <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
@@ -26,9 +25,9 @@ const AboutCard = ({ icon, title, content, index }) => (
 );
 
 const About = () => (
-  <section id="about" className={layout.section}>
+  <section id="about" className={`${layout.section} mb-16`}>
     <div className={layout.sectionInfo}>
-      <h2 className={`${styles.heading2} md:pt-14`}>
+      <h2 className={`${styles.heading2} `}>
         You do the Buying, <br className="sm:block hidden" /> we’ll handle the
         rest.
       </h2>
@@ -40,8 +39,6 @@ const About = () => (
         We are working to phase out the use of these exempted substances where
         technically possible.
       </p>
-
-      <Button styles={`mt-10`} />
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

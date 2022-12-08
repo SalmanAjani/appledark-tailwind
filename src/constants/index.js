@@ -24,14 +24,14 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
+  {
+    id: "billing",
+    title: "Billing",
+  },
 
   {
-    id: "product",
-    title: "Products",
-  },
-  {
-    id: "cart",
-    title: "Cart",
+    id: "clients",
+    title: "Testimonials",
   },
 ];
 
@@ -53,9 +53,9 @@ export const about = [
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "File Transfer",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "File Transfer between Apple devices is super easy since everything is connected on a single network.",
   },
 ];
 
@@ -63,25 +63,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "I used to use Android, but now that I've switched to iOS, I can't go back.",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    title: "Customer",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "The inter-connectivity of Apple devices makes managing everything super easy.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Customer",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "It just looks so good! The whole aesthetic of Apple products is emmaculate.",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "Customer",
     img: people03,
   },
 ];
@@ -109,24 +109,24 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "About Us",
+        link: "",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Products",
+        link: "",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Services",
+        link: "",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Terms & Conditions",
+        link: "",
       },
     ],
   },
@@ -135,36 +135,36 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "For Business",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Apple and Business",
+        link: "",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Shop for Business",
+        link: "",
       },
     ],
   },

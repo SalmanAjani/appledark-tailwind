@@ -23,9 +23,10 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import Apple_logo_gray from "./Apple_logo_gray.svg";
 import iphone4 from "./iphone4.png";
-import iPad from "./iPad.png";
+
+import AppleLogo1 from "./AppleLogo1.png";
+import AppleIcon from "./AppleIcon.png";
 
 export {
   airbnb,
@@ -53,7 +54,7 @@ export {
   people01,
   people02,
   people03,
-  Apple_logo_gray,
   iphone4,
-  iPad,
+  AppleLogo1,
+  AppleIcon,
 };
